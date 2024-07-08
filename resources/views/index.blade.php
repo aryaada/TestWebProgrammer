@@ -193,6 +193,8 @@
                         $('#tambahDataModal').modal('hide');
                         alert('Data berhasil ditambahkan');
 
+                        $('#formTambahData')[0].reset();
+
                         reloadTabelPenjualan();
                     },
                     error: function(err) {
